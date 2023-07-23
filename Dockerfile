@@ -22,4 +22,4 @@ COPY ./app /code/app
 # "app.main:app" points to the FastAPI application instance inside the "main.py" file.
 # "--host 0.0.0.0" binds the application to all available network interfaces so that it can be accessed externally.
 # "--port 80" specifies the port on which the application will listen for incoming requests.
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
